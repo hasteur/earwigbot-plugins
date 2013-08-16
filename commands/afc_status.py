@@ -129,7 +129,7 @@ class AFCStatus(Command):
           Returns the number of active CSD:G13 nominations ( count of
           Category:Candidates for speedy deletion as abandoned AfC submissions)
         """
-        cat_name = "Category:Candidates for speedy deletion as abandoned AfC submissions"
+        cat_name = "Candidates for speedy deletion as abandoned AfC submissions"
         return self.site.get_category(cat_name)
         
     def count_submissions(self):
